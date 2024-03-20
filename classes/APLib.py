@@ -1,7 +1,7 @@
 from io import BytesIO
 
-# Implementação do algoritmo de compressão APlib
-# Link de Referência: https://github.com/snemes/aplib/blob/master/src/aplib.py
+# Implementation of the APlib compression algorithm
+# Reference link: https://github.com/snemes/aplib/blob/master/src/aplib.py
 
 class APLib(object):
 

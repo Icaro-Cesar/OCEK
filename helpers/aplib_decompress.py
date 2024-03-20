@@ -2,8 +2,8 @@ import struct
 from classes import APLib
 from binascii import crc32
 
-# Implementação do algoritmo de compressão APlib
-# Link de Referência: https://github.com/snemes/aplib/blob/master/src/aplib.py
+# Implementation of the APlib compression algorithm
+# Reference link: https://github.com/snemes/aplib/blob/master/src/aplib.py
 
 def aplib_decompress(data, strict=False):
     packed_size = None

@@ -2,10 +2,10 @@ import os
 from .get_hash import get_hash
 
 def get_sample_info(file):
-    # Coleta o nome do sample
+    # Collects the name of the sample.
     filename = os.path.basename(file)
 
-    # Coleta o sha256 do sample
+    # Collects the SHA256 of the sample.
     file_hash = get_hash(file)
 
     return filename, file_hash
