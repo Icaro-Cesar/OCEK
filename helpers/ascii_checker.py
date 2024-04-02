@@ -1,2 +1,12 @@
-def ascii_checker(s):
-    return all(c < 128 or c == 0 for c in s)
+
+'''
+
+    Helper information:
+
+        This helper check if the data is ASCI
+
+'''
+
+def ascii_checker(string):
+    
+    return all(character < 128 or character == 0 for character in string)

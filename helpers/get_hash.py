@@ -1,5 +1,13 @@
 import hashlib
 
+'''
+
+    Helper information:
+
+        This helper is a tool to get the SHA256 Hash only
+
+'''
+
 def get_hash(file):
     # Creates an object in the variable sha256.
     sha256 = hashlib.sha256()

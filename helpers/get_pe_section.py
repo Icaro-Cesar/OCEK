@@ -1,5 +1,13 @@
 import pefile
 
+'''
+
+    Helper information:
+
+        This helper take the data of a specific PE section
+
+'''
+
 def get_pe_section(file, section):
     pe = pefile.PE(data=file)
     section_data = None
