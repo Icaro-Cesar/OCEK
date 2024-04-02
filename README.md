@@ -3,7 +3,7 @@
 The ***Open Source Config Extractor Kit*** is a tool that helps reverse engineers develop their ***Config Extractors***, without the need to rewrite the same *Helper Tools* code for each *extractor* created.
 
 <p align="center">
-  <img src="./img/ocek_infra.png">
+  <img src="./img/osek_flow.jpeg">
 </p>
 
 
