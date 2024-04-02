@@ -17,7 +17,7 @@ Below we can see how you can use the *helper tools*, without the need to rewrite
   <img src="./img/ocek_conf_extractor_example.png">
 </p>
 
-We divide our repo, into four directories:
+We divide our repo into four directories:
 
 - **APIs**: contain python scripts that interacts with APIs (like *HashDB*); 
 - **classes**: contain the custom python classes, used into other other codes;
