@@ -1,0 +1,1 @@
+alert http any any -> any any (msg:"IcedID x64 DLL Traffic was Detected";http.cookie;content:"__gads=";startswith;classtype:command-and-control;sid:1000102; rev:1; priority:1;)
