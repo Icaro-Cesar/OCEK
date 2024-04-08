@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/home/researcher/Projects/OCEK')
+sys.path.append('')     # < your OCEK path
 from helpers.tohex import tohex
 from helpers.get_pe_section import get_pe_section
 
