@@ -1,0 +1,3 @@
+sequence by host.name with maxspan=60s
+[any where (event.code : "1" or event.code: "4688") and process.name : "rundll32.exe" and (process.command_line : "*vcab*")]
+[any where (event.code : "22" or event.code: "3") and process.name: "svchost.exe"]

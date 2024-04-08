@@ -8,11 +8,11 @@ import pefile
 
 '''
 
-def get_pe_section(file, section):
-    pe = pefile.PE(data=file)
+def get_pe_section(file_path, section):
+    with open(file_path, 'rb') as f:
+        pe = pefile.PE(data=f.read()) 
+
     section_data = None
-    
-    # Scanning the argument "section" of the file.
     for sec_dados in pe.sections:
         if bytes(section, encoding='utf8') in sec_dados.Name:
             section_data = sec_dados.get_data()
