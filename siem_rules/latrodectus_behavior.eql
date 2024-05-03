@@ -1,0 +1,4 @@
+    sequence by host.name with maxspan=60s
+    [any where (event.code : "1" or event.code: "4688") and process.name : "MSI*.tmp" and process.command_line : "*rundll32*"]
+    [any where (event.code : "1" or event.code: "4688") and process.name : "rundll32.exe"]
+    [any where event.code : "7"]
