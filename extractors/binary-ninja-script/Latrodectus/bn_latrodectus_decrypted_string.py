@@ -1,6 +1,5 @@
 
 #   Title:  Binary Ninja Latrodectus String Decryptor Script
-#   Author: 0x0d4y
 #   Reference: Script that helps a lot to understand the algorithm => https://github.com/leandrofroes/malware-research/blob/main/Latrodectus/binja_latrodectus_str_dec.py
 
 def format_string(decrypted_data) -> str:
