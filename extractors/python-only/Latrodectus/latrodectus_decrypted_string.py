@@ -1,3 +1,6 @@
+# This script it's inspired by the Leandro work.
+# link => https://github.com/leandrofroes/malware-research/blob/main/Latrodectus/binja_latrodectus_str_dec.py
+
 import pefile
 
 def format_string(encoded_string: bytes) -> str:
