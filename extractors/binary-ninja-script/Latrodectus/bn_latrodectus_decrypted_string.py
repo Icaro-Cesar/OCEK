@@ -39,5 +39,5 @@ for xrefs in cross_references:
     encrypted_data_only = encrypt_full_data_lenght[6:6+data_lenght_calc]    # Encrypted data block only, sixth byte and so on
     print("Encrypted Data Block:", encrypted_data_only)
     decrypted_str = decrypt_string(encrypted_data_only, decryption_key)
-    #bv.set_comment_at(xrefs.address, decrypted_str)          # Set comments on each Cross-Reference of the XOR Decryption function
+    bv.set_comment_at(xrefs.address, decrypted_str)          # Set comments on each Cross-Reference of the XOR Decryption function
     print("Decrypted String:", decrypted_str)
