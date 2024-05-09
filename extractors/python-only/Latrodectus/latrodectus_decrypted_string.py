@@ -1,8 +1,3 @@
-#
-#   Title:  Latrodectus String Decryptor Script
-#   Author: 0x0d4y
-#
-
 import pefile
 
 def format_string(encoded_string: bytes) -> str:
